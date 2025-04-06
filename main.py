@@ -10,7 +10,7 @@ Features:
 - Supports targeting any strip or bus in Voicemeeter
 
 Requires:
-- voicemeeterlib
+- voicemeeter-api
 - pynput
 - flask
 
@@ -21,7 +21,7 @@ import time
 import logging
 import threading
 from pynput import keyboard
-import voicemeeterlib
+import voicemeeterlib  # From voicemeeter-api package
 from flask import Flask, jsonify, request
 
 # --- Configuration ---

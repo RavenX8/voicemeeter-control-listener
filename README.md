@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿# Voicemeeter Remote Control Listener
+﻿# Voicemeeter Remote Control Listener
 
 A Python application that intercepts media keys (volume up/down/mute) and redirects them to control Voicemeeter audio strips and buses.
 
@@ -15,7 +15,7 @@ A Python application that intercepts media keys (volume up/down/mute) and redire
 - Python 3.6+
 - [Voicemeeter](https://vb-audio.com/Voicemeeter/) installed and running
 - Python packages:
-  - voicemeeterlib
+  - voicemeeter-api
   - pynput
   - flask
 
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 Or install packages individually:
 
 ```bash
-pip install voicemeeterlib pynput flask
+pip install voicemeeter-api pynput flask
 ```
 
 ## Usage

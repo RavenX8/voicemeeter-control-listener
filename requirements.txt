@@ -1,0 +1,3 @@
+﻿voicemeeterlib>=1.0.0
+pynput>=1.7.0
+flask>=2.0.0
